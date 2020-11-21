@@ -1,9 +1,27 @@
 {
   "name": "data-faker-js",
-  "description": "Fake Data Builder based on Faker.js",
+  "description": "Fake Data Builder for API placeholder",
+  "keywords": [
+    "fake",
+    "data",
+    "builder",
+    "faker",
+    "json",
+    "fake-api",
+    "placeholder"
+  ],
+  "license": "Apache-2.0",
   "version": "0.1.0",
   "author": "Reinaldy Rafli <reinaldy.rafli@arcet.id>",
   "private": false,
+  "homepage": "https://github.com/arcet-id/data-faker-js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arcet-id/data-faker-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/arcet-id/data-faker-js/issues"
+  },
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -11,10 +29,15 @@
   },
   "dependencies": {
     "core-js": "^3.7.0",
+    "csv-stringify": "^5.5.3",
+    "dayjs": "^1.9.6",
     "faker": "^5.1.0",
+    "generate-password": "^1.5.1",
     "highlight.js": "^10.4.0",
     "json-2-csv": "^3.7.8",
     "jsontoxml": "^1.0.1",
+    "lorem-ipsum": "^2.0.3",
+    "uuid": "^8.3.1",
     "v-clipboard": "^2.2.3",
     "vue": "^2.6.11"
   },
@@ -39,7 +62,13 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {}
+    "rules": {
+      "no-trailing-spaces": "warn",
+      "quotes": "warn",
+      "semi": "warn",
+      "no-var": "warn",
+      "prefer-const": "warn"
+    }
   },
   "browserslist": [
     "> 1%",
