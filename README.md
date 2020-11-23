@@ -1,5 +1,7 @@
 # Data Faker (written on Javascript) - for API data placeholder
 
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/646c44b1b1674f8f91981d895dd2a71b)](https://www.codacy.com/gh/arcet-id/data-faker-js/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=arcet-id/data-faker-js&amp;utm_campaign=Badge_Grade) [![GitHub issues](https://img.shields.io/github/issues/arcet-id/data-faker-js)](https://github.com/arcet-id/data-faker-js/issues) [![GitHub forks](https://img.shields.io/github/forks/arcet-id/data-faker-js)](https://github.com/arcet-id/data-faker-js/network) [![GitHub stars](https://img.shields.io/github/stars/arcet-id/data-faker-js)](https://github.com/arcet-id/data-faker-js/stargazers) [![GitHub license](https://img.shields.io/github/license/arcet-id/data-faker-js)](https://github.com/arcet-id/data-faker-js/blob/master/LICENSE)
+
 **This is not a module**. This is a simple Single Page App (SPA) written in Node.js for fake data creation. Mostly used for API placeholder.
 
 ## Project setup
@@ -27,7 +29,7 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ## License
 
-Copyright 2020 Reinaldy Rafli
+Copyright 2020 ARCET Creative Visual Studio
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this file except in compliance with the License.
