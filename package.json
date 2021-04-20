@@ -12,7 +12,7 @@
   ],
   "license": "Apache-2.0",
   "version": "0.1.0",
-  "author": "Reinaldy Rafli <reinaldy.rafli@arcet.id>",
+  "author": "Reinaldy Rafli <reinaldy@arcet.id>",
   "private": false,
   "homepage": "https://github.com/arcet-id/data-faker-js",
   "repository": {
